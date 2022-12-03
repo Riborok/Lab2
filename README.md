@@ -1,7 +1,7 @@
 # Lab №2. Numbers
 ---
 ### Task:
-![The task](https://i.imgur.com/QulTFXq.png)
+![The task](https://i.imgur.com/A6yxRha.png)
 
 #### Language: Delphi
 

@@ -1,7 +1,7 @@
 # Lab №2. Numbers
 ---
 ### Task:
-![The task](https://i.imgur.com/A6yxRha.png)
+![The task](https://i.imgur.com/mTCiIg1.png)
 
 #### Language: Delphi
 
@@ -11,9 +11,9 @@
 ### (Main)
 ### Algorithm scheme using shifts: 
 
-![Algorithm scheme using shifts Part1](https://i.imgur.com/KR6VeXv.png)
+![Algorithm scheme using shifts Part1](https://i.imgur.com/wRVtxM7.png)
 
-![Algorithm scheme using shifts Part2](https://i.imgur.com/Alf12rm.png)
+![Algorithm scheme using shifts Part2](https://i.imgur.com/Kjk4nQ4.png)
 
 ### Code using shifts:
 ``` pascal
@@ -94,11 +94,11 @@ End.
 
 ### Algorithm scheme using string: 
 
-![Algorithm scheme using string Part1](https://i.imgur.com/krOR2cT.png)
+![Algorithm scheme using string Part1](https://i.imgur.com/iiAyXoK.png)
 
-![Algorithm scheme using string Part2](https://i.imgur.com/ziBaQze.png)
+![Algorithm scheme using string Part2](https://i.imgur.com/YFdzQkX.png)
 
-![Algorithm scheme using string Part3](https://i.imgur.com/kfSnoCC.png)
+![Algorithm scheme using string Part3](https://i.imgur.com/wsT1aAK.png)
 
 ### Code using string:
 ``` pascal

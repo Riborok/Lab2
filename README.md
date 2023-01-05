@@ -96,9 +96,9 @@ End.
 
 ![Algorithm scheme using string Part1](https://i.imgur.com/iiAyXoK.png)
 
-![Algorithm scheme using string Part2](https://i.imgur.com/YFdzQkX.png)
+![Algorithm scheme using string Part2](https://i.imgur.com/CN2wRMG.png)
 
-![Algorithm scheme using string Part3](https://i.imgur.com/wsT1aAK.png)
+![Algorithm scheme using string Part3](https://i.imgur.com/KxoKDxv.png)
 
 ### Code using string:
 ``` pascal
@@ -147,6 +147,7 @@ Begin
     //Split the string in half and compare the elements
     else
     begin
+
       j:=1;
       half:= len div 2;
       while (j<=half) and (flag=False) do
@@ -154,15 +155,15 @@ Begin
 
         //If some element is not equal, exit the loop
         if (IntToStr(i)[j] <> IntToStr(i)[len - j + 1]) then
-          flag:=True
-
-        //If compared all the elements, then found the number that gives the palidrome
-        else if j = half then
-          FindPalindrome:= True;
+          flag:=True;
 
         //Modernize j
         j:= j+1;
       end;
+
+      //If compared all the elements, then found the number that gives the palidrome
+      if flag = False then
+        FindPalindrome:= True;
     end;
 
     //Сheck if palindrome calls
@@ -186,6 +187,7 @@ Begin
       //Split the string in half and compare the elements
       else
       begin
+
         j:=1;
         half:= len div 2;
         while (j<=half) and (flag=False) do
@@ -193,15 +195,15 @@ Begin
 
           //If some element is not equal, exit the loop
           if (IntToStr(Square)[j] <> IntToStr(Square)[len - j + 1]) then
-            flag:=True
-
-          //If compared all the elements, then found the number that gives the palidrome
-          else if j = half then
-            Writeln('Number-palindrome ', i,' also causes a palindrome when squaring: ', Square);
+            flag:= True;
 
           //Modernize j
           j:= j+1;
         end;
+
+        if flag = False then
+          Writeln('Number-palindrome ', i,' also causes a palindrome when squaring: ', Square);
+
       end;
 
     end;
